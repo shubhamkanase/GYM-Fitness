@@ -1,0 +1,116 @@
+body {
+    font-family: 'Baloo 2', cursive;
+    background: url('img/king.jpg');
+    color: aliceblue;
+    background-size: cover;
+
+
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 4px;
+    top: 2px;
+
+}
+
+.left img {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-size: 12px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    width: 39%;
+    margin: 0px auto;
+    display: block;
+
+
+
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    font-family: 'Baloo 2', cursive;
+    margin: 10px 5px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 4px 14px;
+    border: 2px solid rgb(192, 82, 82);
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 56px 48px;
+    padding: 25px;
+    width: 36%;
+    border-radius: 27px;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 4px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-size: 15px;
+
+}
+
+.container h2 {
+    text-align: center;
+    margin: auto;
+
+}
+
+.container button {
+    display: block;
+    width: 85%;
+    margin: 20px auto;
+
+}
